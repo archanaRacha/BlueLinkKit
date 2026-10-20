@@ -12,15 +12,27 @@ Dark dashboard, nearby device search, scan/stop, signal strength, connection sta
 This release updates the demo UI, not the underlying BLE SDK. Test on real BLE hardware; Xcode/iOS compilation has not been performed in this Linux environment.
 
 
-## Screenshots
+
+## 📱 BlueLinkKit Explorer
+
+A SwiftUI demo application showcasing BlueLinkKit running on a physical iPhone.
+
+### Screenshots
 
 | Device Scanning | Device Connected | GATT Services |
-|---|---|---|
-| <img src="docs/screenshots/device-scanning.png" width="220" alt="BLE scanning" /> | <img src="docs/screenshots/device-connected.png" width="220" alt="Connected device" /> | <img src="docs/screenshots/gatt-services.png" width="220" alt="GATT services" /> |
+|:---:|:---:|:---:|
+| <img src="docs/screenshots/device-scanning.png" width="220" alt="BLE device scanning"> | <img src="docs/screenshots/device-connected.png" width="220" alt="BLE device connected"> | <img src="docs/screenshots/gatt-services.png" width="220" alt="GATT service discovery"> |
 
-## 🎥 BlueLinkKit Demo
+### 🎥 Watch the Demo
 
 [![Watch BlueLinkKit Demo](docs/screenshots/device-connected.png)](docs/demo/bluelinkkit-demo.mp4)
 
-Click the image to watch the BLE Explorer demo.
+**[▶ Watch the full BLE Explorer demo](docs/demo/bluelinkkit-demo.mp4)**
+
+The demo demonstrates BLE scanning, connecting to a real peripheral, and discovering GATT services.
+
+### Technologies
+
+Swift · SwiftUI · CoreBluetooth · Swift Concurrency · Swift Package Manager
+
   
